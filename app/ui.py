@@ -7,7 +7,7 @@ from app.caption_image import generate_caption
 
 def run_ui():
     st.set_page_config(page_title="🛍️ Retail GenAI Suite", layout="wide")
-    st.title("🧠 Retail GenAI: Product Image + Text + Audio")
+    st.title("🧠 Retail GenAI: Product Image + Text")
 
     prompt = st.text_input("Enter product description (e.g., 'red leather handbag with gold chains')")
 
